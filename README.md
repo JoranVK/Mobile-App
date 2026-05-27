@@ -29,5 +29,21 @@ Elk item bevat:
 - Taal: Nederlands ↔ Engels
 - PWA: manifest + service worker + offline caching
 
-## Lokale test
-Open `index.html` in een browser of draai een lokale static server.
+## Lokale ontwikkeling met Node.js
+
+**Vereisten:** Node.js ≥ 18 en npm
+
+```bash
+# Start de ontwikkelserver (standaard poort 3000)
+npm start
+
+# Of met een andere poort
+PORT=8080 npm start
+```
+
+Open daarna http://localhost:3000 in je browser.
+
+De server serveert alle statische bestanden vanuit de projectmap en stuurt onbekende paden door naar een 404-melding.
+
+## Lokale test zonder Node.js
+Open `index.html` direct in een browser of gebruik een andere static file server.

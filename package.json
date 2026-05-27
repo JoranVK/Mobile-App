@@ -1,0 +1,21 @@
+{
+  "name": "mobile-app",
+  "version": "1.0.0",
+  "description": "Een eenvoudige mobile-first Takenlijst PWA met offline ondersteuning.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoranVK/Mobile-App.git"
+  },
+  "keywords": ["pwa", "offline", "takenlijst"],
+  "author": "JoranVK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoranVK/Mobile-App/issues"
+  },
+  "homepage": "https://github.com/JoranVK/Mobile-App#readme"
+}
