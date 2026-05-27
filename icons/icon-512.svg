@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Takenlijst icoon">
+  <rect width="512" height="512" rx="96" fill="#1f6feb" />
+  <path d="M122 150h268v32H122zm0 90h268v32H122zm0 90h188v32H122z" fill="#fff" />
+  <circle cx="352" cy="346" r="46" fill="#7ee787" />
+</svg>
