@@ -30,9 +30,9 @@ const server = http.createServer((req, res) => {
     urlPath = '/index.html';
   }
 
-  const filePath = path.join(ROOT, urlPath);
+  const filePath = path.resolve(ROOT, '.' + urlPath);
 
-  if (!filePath.startsWith(ROOT + path.sep) && filePath !== ROOT) {
+  if (!filePath.startsWith(ROOT + path.sep)) {
     res.writeHead(403, { 'Content-Type': 'text/plain' });
     res.end('Forbidden');
     return;
